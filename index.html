@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of [Your Name] - Web Developer, Designer, and [Your Profession]">
-    <meta name="author" content="[Your Name]">
-    <title>[Your Name] - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Muhammad Saqib - GIS Specialist, GIS Analyst, Remote Sensing Expert">
+    <meta name="author" content="Muhammad Saqib">
+    <title>Muhammad Saqib - GIS Specialist</title>
     <style>
+        /* Reset and general styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e6f2ff;
             color: #333;
         }
         header {
-            background-color: #2c3e50;
+            background-color: #004080;
             color: white;
             text-align: center;
-            padding: 2rem 0;
+            padding: 3rem 0;
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
+            margin: 0;
         }
         nav ul {
             list-style: none;
@@ -32,7 +33,7 @@
             justify-content: center;
         }
         nav ul li {
-            margin: 0 1rem;
+            margin: 0 1.5rem;
         }
         nav ul li a {
             color: white;
@@ -42,26 +43,30 @@
         nav ul li a:hover {
             text-decoration: underline;
         }
+
+        /* Container and Sections */
         .container {
-            width: 80%;
+            width: 85%;
             margin: 0 auto;
             padding: 2rem 0;
         }
         .section {
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
         .section h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            color: #004080;
             margin-bottom: 1rem;
         }
-        .about, .contact {
-            display: flex;
-            flex-direction: column;
-        }
-        .about p, .contact p {
-            font-size: 1rem;
+
+        /* About Section */
+        .about p {
+            font-size: 1.2rem;
             line-height: 1.6;
+            margin-bottom: 1.5rem;
         }
+
+        /* Skills Section */
         .skills ul {
             list-style: none;
             padding: 0;
@@ -70,11 +75,13 @@
         .skills ul li {
             display: inline-block;
             margin: 0.5rem 1rem;
-            background-color: #16a085;
+            background-color: #0066cc;
             color: white;
             padding: 0.5rem 1rem;
             border-radius: 5px;
         }
+
+        /* Portfolio Section */
         .portfolio img {
             width: 100%;
             height: auto;
@@ -84,8 +91,16 @@
         .portfolio img:hover {
             transform: scale(1.05);
         }
+
+        /* Contact Section */
+        .contact p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Footer Section */
         footer {
-            background-color: #2c3e50;
+            background-color: #004080;
             color: white;
             text-align: center;
             padding: 1rem 0;
@@ -95,6 +110,7 @@
 </head>
 <body>
 
+    <!-- Header Section -->
     <header>
         <h1>Muhammad Saqib</h1>
         <nav>
@@ -107,61 +123,70 @@
         </nav>
     </header>
 
+    <!-- Main Content Container -->
     <div class="container">
+
+        <!-- About Section -->
         <section id="about" class="section">
             <h2>About Me</h2>
-            <div class="about">
-                <p>Hello! I'm M Saqib, a passionate [Your Profession] with [X] years of experience in [your area of expertise]. I specialize in [key skills/technologies], and I am constantly striving to expand my knowledge and create innovative solutions.</p>
-                <p>I enjoy working on challenging projects, collaborating with creative teams, and contributing to the success of every project I work on.</p>
-            </div>
+            <p>Hello! I'm Muhammad Saqib, a GIS Specialist with over [X] years of experience in **Geographic Information Systems (GIS)**, **Remote Sensing**, and **Spatial Analysis**. I specialize in creating, managing, and analyzing geospatial data to solve real-world problems, particularly in sectors such as environmental monitoring, urban planning, and resource management.</p>
+            <p>My work involves leveraging GIS technologies to develop comprehensive spatial models, perform data analysis, and deliver actionable insights. I have a passion for working on projects that make a tangible impact, and I am always eager to learn new techniques and technologies to enhance my GIS skill set.</p>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills" class="section">
-            <h2>Skills</h2>
+            <h2>Skills & Expertise</h2>
             <div class="skills">
                 <ul>
-                     <li>Web GIS Development</li>
-                    <li>HTML & CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Python</li>
-                    <li>Web Design</li>
-                    <li>Version Control (Git)</li>
+                    <li>ArcGIS Pro & ArcMap</li>
+                    <li>QGIS</li>
+                    <li>Remote Sensing (Satellite & Aerial Imagery)</li>
+                    <li>Geospatial Data Analysis</li>
+                    <li>Geospatial Database Management (PostGIS, Spatial SQL)</li>
+                    <li>Python for GIS (ArcPy, PyQGIS)</li>
+                    <li>Cartography & Map Design</li>
+                    <li>GPS Data Collection & Surveying</li>
+                    <li>Geostatistics & Spatial Modeling</li>
+                    <li>Spatial Data Visualization (Leaflet, Mapbox)</li>
+                    <li>Web GIS & GeoWeb Applications</li>
                 </ul>
             </div>
         </section>
 
+        <!-- Portfolio Section -->
         <section id="portfolio" class="section">
             <h2>Portfolio</h2>
             <div class="portfolio">
                 <div>
-                    <img src="project1.jpg" alt="Project 1">
-                    <p>Project 1 Description</p>
+                    <img src="gis_project1.jpg" alt="GIS Project 1">
+                    <p><strong>Project 1:</strong> Urban Growth Modeling and Land Use Planning using GIS and Remote Sensing.</p>
                 </div>
                 <div>
-                    <img src="project2.jpg" alt="Project 2">
-                    <p>Project 2 Description</p>
+                    <img src="gis_project2.jpg" alt="GIS Project 2">
+                    <p><strong>Project 2:</strong> Environmental Impact Assessment using Spatial Data and Remote Sensing Analysis.</p>
                 </div>
                 <div>
-                    <img src="project3.jpg" alt="Project 3">
-                    <p>Project 3 Description</p>
+                    <img src="gis_project3.jpg" alt="GIS Project 3">
+                    <p><strong>Project 3:</strong> Automated Mapping and Geospatial Analysis for Infrastructure Development.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact" class="section">
             <h2>Contact Me</h2>
-            <div class="contact">
-                <p>If you'd like to get in touch, feel free to reach out via email at msaqibgis@gmail.com or connect with me on LinkedIn www.linkedin.com/in/muhammadsaqib09.</p>
-            </div>
+            <p>If you are interested in working together or have any inquiries, feel free to contact me. You can reach me at:</p>
+            <p><strong>Email:</strong> <a href="mailto:muhammad.saqib@example.com">muhammad.saqib@example.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhammad-saqib" target="_blank">linkedin.com/in/muhammad-saqib</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/muhammad-saqib" target="_blank">github.com/muhammad-saqib</a></p>
         </section>
+
     </div>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 M Saqib. All rights reserved.</p>
+        <p>&copy; 2024 Muhammad Saqib. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
-
