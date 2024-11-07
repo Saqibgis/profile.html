@@ -4,6 +4,9 @@ body {
     background-color: #008b8b ;
     color: $white;
 }
+header{
+    background-color: #008b8b ;
+}
 header h1 {
     color: #0000ff;
 }
@@ -43,6 +46,6 @@ nav a.nav-link:hover {
 
 /* Footer */
 footer {
-    background-color: #004080;
+    background-color: #008b8b ;
     color: white;
 }
