@@ -1,77 +1,28 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #e6f2ff;
     color: #333;
 }
-header {
-    display: flex;
-    align-items: center;
-    padding: 1.5rem;
-}
-.header-content {
-    text-align: center;
-    flex: 1;
-}
 header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-nav ul li {
-    margin: 0 1.5rem;
-}
-nav ul li a {
     color: #004080;
-    text-decoration: none;
-    font-size: 1.2rem;
 }
-nav ul li a:hover {
-    text-decoration: underline;
+nav a.nav-link {
+    color: #004080;
+}
+nav a.nav-link:hover {
+    color: #0066cc;
 }
 
-/* Profile Picture on the Right */
-.profile-picture {
-    margin-left: 1rem;
-}
+/* Profile Picture */
 .profile-picture img {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
     border: 2px solid #004080;
-    object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Container and Sections */
-.container {
-    width: 85%;
-    margin: 0 auto;
-    padding: 2rem 0;
-}
-.section {
-    margin-bottom: 3rem;
-}
-.section h2 {
-    font-size: 2.5rem;
-    color: #004080;
-    margin-bottom: 1rem;
-}
-
 /* About Section */
-.about {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
 .about img {
     width: 150px;
     height: 150px;
@@ -83,47 +34,23 @@ nav ul li a:hover {
 .about p {
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
 }
 
 /* Skills Section */
-.skills ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.skills ul li {
-    display: inline-block;
-    margin: 0.5rem 1rem;
-    background-color: #0066cc;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+.skills li {
+    font-size: 1rem;
 }
 
 /* Portfolio Section */
-.portfolio img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+.card img {
     transition: transform 0.3s ease;
 }
-.portfolio img:hover {
+.card img:hover {
     transform: scale(1.05);
 }
 
-/* Contact Section */
-.contact p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-/* Footer Section */
+/* Footer */
 footer {
     background-color: #004080;
     color: white;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 3rem;
 }
-
