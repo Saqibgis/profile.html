@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muhammad Saqib -GIS Developer, GIS Specialist, GIS Analyst, Remote Sensing Expert">
+    <meta name="description" content="Muhammad Saqib - GIS Developer, GIS Specialist, GIS Analyst, Remote Sensing Expert">
     <meta name="author" content="Muhammad Saqib">
     <title>Muhammad Saqib - GIS Specialist</title>
     <style>
@@ -18,20 +18,7 @@
         header {
             display: flex;
             align-items: center;
-            background-color: #004080;
-            color: white;
             padding: 1.5rem;
-        }
-        .profile-picture {
-            margin-right: 1rem;
-        }
-        .profile-picture img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 2px solid #ffffff;
-            object-fit: cover;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .header-content {
             text-align: center;
@@ -52,12 +39,25 @@
             margin: 0 1.5rem;
         }
         nav ul li a {
-            color: white;
+            color: #004080;
             text-decoration: none;
             font-size: 1.2rem;
         }
         nav ul li a:hover {
             text-decoration: underline;
+        }
+
+        /* Profile Picture on the Right */
+        .profile-picture {
+            margin-left: 1rem;
+        }
+        .profile-picture img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #004080;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         /* Container and Sections */
@@ -141,11 +141,6 @@
 
     <!-- Header Section -->
     <header>
-        <!-- Profile Picture on the Left -->
-        <div class="profile-picture">
-            <img src="profile picture.png" alt="Muhammad Saqib's Profile Picture">
-        </div>
-        
         <!-- Header Content in Center -->
         <div class="header-content">
             <h1>Muhammad Saqib</h1>
@@ -158,6 +153,11 @@
                 </ul>
             </nav>
         </div>
+
+        <!-- Profile Picture on the Right -->
+        <div class="profile-picture">
+            <img src="profile picture.png" alt="Muhammad Saqib's Profile Picture">
+        </div>
     </header>
 
     <!-- Main Content Container -->
@@ -165,8 +165,6 @@
 
         <!-- About Section -->
         <section id="about" class="section about">
-            <!-- Profile Picture Frame -->
-            <img src="profile picture.png" alt="Muhammad Saqib's Profile Picture">
             <div>
                 <h2>About Me</h2>
                 <p>Hello! I'm Muhammad Saqib, a GIS Specialist with over 5 years of experience in Geographic Information Systems (GIS), Remote Sensing, and Spatial Analysis. I specialize in creating, managing, and analyzing geospatial data to solve real-world problems, particularly in sectors such as environmental monitoring, urban planning, and resource management.</p>
