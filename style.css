@@ -1,51 +1,68 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #008b8b ;
-    color: $white;
+/* style.css */
+
+/* Header Section */
+header.bg-light {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-header{
-    background-color: #008b8b ;
+
+/* Header content */
+.container.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header h1 {
-    color: #0000ff;
+    font-size: 2.5rem;
 }
-nav a.nav-link {
-    color: #004080;
+
+nav ul.nav {
+    display: flex;
+    justify-content: center;
 }
-nav a.nav-link:hover {
-    color: #0066cc;
+
+.nav-link {
+    color: #007bff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 /* Profile Picture */
 .profile-picture img {
-    width: 90px;
-    height: 110px;
-    border: 2px solid #004080;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
 }
 
 /* About Section */
-.about p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+.section.about {
+    margin-bottom: 3rem;
 }
 
 /* Skills Section */
-.skills li {
-    font-size: 1rem;
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .badge {
+    background-color: #007bff;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
 /* Portfolio Section */
-.card img {
-    transition: transform 0.3s ease;
-}
-.card img:hover {
-    transform: scale(1.05);
+.card {
+    margin-bottom: 1rem;
 }
 
-/* Footer */
-footer {
-    background-color: #008b8b ;
+.card img.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Section */
+footer.bg-dark {
+    background-color: #343a40;
     color: white;
+    padding: 1rem 0;
 }
