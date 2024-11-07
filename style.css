@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color:  $indigo-900;
-    color: $yellow-300;
+    background-color: $green;
+    color: $blue;
 }
 header h1 {
     color: #0000ff;
